@@ -119,10 +119,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: "ieasxu1407/ieasxu1407.github.io"
+    repo_id: "R_kgDORa6C_g"
+    category: "anonymous"
+    category_id: "DIC_kwDORa6C_s4C3Y1A"
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
