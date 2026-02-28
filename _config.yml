@@ -16,7 +16,7 @@ timezone:
 
 title: 일상 블로그 # the main title
 
-tagline: 일상블로그. # it will display as the subtitle
+tagline: 여러가지 이야기를 나누는 블로그입니다. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
