@@ -6,4 +6,6 @@ tags: [test]
 comments: true
 ---
 
+![설명글](/media/176551609.png)
+
 테스트입니다.
