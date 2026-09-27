@@ -1,0 +1,57 @@
+baseURL = "https://ieasxu1407.github.io/"
+title = "ieasxu1407 의 블로그"
+theme = "seotax"
+
+defaultContentLanguage = "ko"
+languageCode = "ko"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
+[permalinks]
+posts = "/blog/:slugorcontentbasename/"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+codeFences = true
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 4
+
+[params]
+author = "ieasxu1407"
+keywords = ["블로그", "일상", "IT", "컴퓨터", "GitHub", "Hugo"]
+portableLinks = true
+serviceWorker = "precache"
+
+[params.posts]
+section = "posts"
+sort = "newest"
+
+[params.search]
+enabled = true
+sort = "newest"
+
+[params.menu]
+categories = true
+recentPosts = true
+
+[params.social]
+github = "https://github.com/ieasxu1407"
+
+[params.images]
+rootPath = "_images"
+maxImageSize = 1920
+roundedCorners = false
+rotateLandscapeImages = true
+
+[caches]
+[caches.images]
+dir = ":cacheDir/images"
